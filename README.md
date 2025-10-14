@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AwTYhPar)
 # Лабораторная работа № 1: определение достижимости параллелизма и реализация параллельных алгоритмов.
 
 Шаги выполнения:
@@ -12,3 +13,12 @@
 \
 **Загрузить графики в отдельную директорию в репозитории** \
 **Для построения графиков можно воспользоваться чем угодно**
+
+Пример запуска скрипта для графиков
+```bash
+python .\bench_bfs.py `
+   --project "<path to project>" `
+   --test org.itmo.BFSTest `
+   --cpu 1,2,4,6,8 `
+   --plot
+```
